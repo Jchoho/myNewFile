@@ -30,7 +30,7 @@
     
     [self.view addSubview:imgView];
     
-    //EEEEEEEEEEEEEE
+    [self.view addSubview:[UIView new]];
 }
 
 - (void)didReceiveMemoryWarning {
