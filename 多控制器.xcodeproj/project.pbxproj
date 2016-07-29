@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		277AE7351D4B357800F188AC /* secondFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 277AE7341D4B357800F188AC /* secondFile.m */; };
 		27C871E81C5A1B0C0051937F /* testController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C871E61C5A1B0C0051937F /* testController.m */; };
 		27C871E91C5A1B0C0051937F /* testController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27C871E71C5A1B0C0051937F /* testController.xib */; };
 		27EFC0791C585E6800239D6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EFC0781C585E6800239D6C /* main.m */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		277AE7331D4B357800F188AC /* secondFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondFile.h; sourceTree = "<group>"; };
+		277AE7341D4B357800F188AC /* secondFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondFile.m; sourceTree = "<group>"; };
 		27C871E51C5A1B0C0051937F /* testController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testController.h; sourceTree = "<group>"; };
 		27C871E61C5A1B0C0051937F /* testController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testController.m; sourceTree = "<group>"; };
 		27C871E71C5A1B0C0051937F /* testController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = testController.xib; sourceTree = "<group>"; };
@@ -73,6 +76,8 @@
 				27EFC08E1C58707C00239D6C /* test.xib */,
 				27EFC07D1C585E6800239D6C /* ViewController.h */,
 				27EFC07E1C585E6800239D6C /* ViewController.m */,
+				277AE7331D4B357800F188AC /* secondFile.h */,
+				277AE7341D4B357800F188AC /* secondFile.m */,
 				27EFC0801C585E6800239D6C /* Main.storyboard */,
 				27EFC0831C585E6800239D6C /* Assets.xcassets */,
 				27EFC0851C585E6800239D6C /* LaunchScreen.storyboard */,
@@ -163,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27EFC07F1C585E6800239D6C /* ViewController.m in Sources */,
+				277AE7351D4B357800F188AC /* secondFile.m in Sources */,
 				27EFC07C1C585E6800239D6C /* AppDelegate.m in Sources */,
 				27EFC0791C585E6800239D6C /* main.m in Sources */,
 				27C871E81C5A1B0C0051937F /* testController.m in Sources */,

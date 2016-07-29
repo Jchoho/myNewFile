@@ -30,7 +30,7 @@
     
     [self.view addSubview:imgView];
     
-    
+    //EEEEEEEEEEEEEE
 }
 
 - (void)didReceiveMemoryWarning {
