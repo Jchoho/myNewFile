@@ -17,6 +17,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    UIImageView *imgView = [UIImageView new];
+    imgView.backgroundColor = [UIColor redColor];
+    imgView.frame = CGRectMake(0, 0, 100, 100);
+    UILabel *leable = [UILabel new];
+    leable.frame = CGRectMake(10, 10, 10, 10);
+    leable.text = @"xxx";
+    [imgView addSubview:leable];
+    
+    [self.view addSubview:imgView];
 }
 
 - (void)didReceiveMemoryWarning {

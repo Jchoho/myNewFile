@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27C871E81C5A1B0C0051937F /* testController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C871E61C5A1B0C0051937F /* testController.m */; };
+		27C871E91C5A1B0C0051937F /* testController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27C871E71C5A1B0C0051937F /* testController.xib */; };
 		27EFC0791C585E6800239D6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EFC0781C585E6800239D6C /* main.m */; };
 		27EFC07C1C585E6800239D6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EFC07B1C585E6800239D6C /* AppDelegate.m */; };
 		27EFC07F1C585E6800239D6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EFC07E1C585E6800239D6C /* ViewController.m */; };
 		27EFC0821C585E6800239D6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27EFC0801C585E6800239D6C /* Main.storyboard */; };
 		27EFC0841C585E6800239D6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27EFC0831C585E6800239D6C /* Assets.xcassets */; };
 		27EFC0871C585E6800239D6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27EFC0851C585E6800239D6C /* LaunchScreen.storyboard */; };
+		27EFC08F1C58707C00239D6C /* test.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27EFC08E1C58707C00239D6C /* test.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27C871E51C5A1B0C0051937F /* testController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testController.h; sourceTree = "<group>"; };
+		27C871E61C5A1B0C0051937F /* testController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testController.m; sourceTree = "<group>"; };
+		27C871E71C5A1B0C0051937F /* testController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = testController.xib; sourceTree = "<group>"; };
 		27EFC0741C585E6800239D6C /* 多控制器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "多控制器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27EFC0781C585E6800239D6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		27EFC07A1C585E6800239D6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +32,7 @@
 		27EFC0831C585E6800239D6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27EFC0861C585E6800239D6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27EFC0881C585E6800239D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27EFC08E1C58707C00239D6C /* test.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = test.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +67,10 @@
 			children = (
 				27EFC07A1C585E6800239D6C /* AppDelegate.h */,
 				27EFC07B1C585E6800239D6C /* AppDelegate.m */,
+				27C871E51C5A1B0C0051937F /* testController.h */,
+				27C871E61C5A1B0C0051937F /* testController.m */,
+				27C871E71C5A1B0C0051937F /* testController.xib */,
+				27EFC08E1C58707C00239D6C /* test.xib */,
 				27EFC07D1C585E6800239D6C /* ViewController.h */,
 				27EFC07E1C585E6800239D6C /* ViewController.m */,
 				27EFC0801C585E6800239D6C /* Main.storyboard */,
@@ -137,6 +148,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				27EFC0871C585E6800239D6C /* LaunchScreen.storyboard in Resources */,
+				27C871E91C5A1B0C0051937F /* testController.xib in Resources */,
+				27EFC08F1C58707C00239D6C /* test.xib in Resources */,
 				27EFC0841C585E6800239D6C /* Assets.xcassets in Resources */,
 				27EFC0821C585E6800239D6C /* Main.storyboard in Resources */,
 			);
@@ -152,6 +165,7 @@
 				27EFC07F1C585E6800239D6C /* ViewController.m in Sources */,
 				27EFC07C1C585E6800239D6C /* AppDelegate.m in Sources */,
 				27EFC0791C585E6800239D6C /* main.m in Sources */,
+				27C871E81C5A1B0C0051937F /* testController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +314,7 @@
 				27EFC08D1C585E6800239D6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

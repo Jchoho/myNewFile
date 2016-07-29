@@ -7,8 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "testController.h"
 
 @interface AppDelegate ()
+
+/** 自定义window */
+@property (nonatomic,strong)UIWindow *window1;
 
 @end
 
@@ -16,7 +20,32 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor blueColor];
+    testController *testC = [[testController alloc] init];
+    self.window.rootViewController = testC;
+    [self.window makeKeyAndVisible];
+////    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+////    UIViewController *vc = [sb instantiateViewControllerWithIdentifier:@"test"];
+//    UIViewController *vc = [[UIViewController alloc]initWithNibName:@"test" bundle:nil];
+//    
+//    self.window.rootViewController = vc;
+//    [self.window makeKeyAndVisible];
+//    
+//    self.window1 = [[UIWindow alloc]initWithFrame:CGRectMake(0, 20, 414, 20)];
+//    self.window1.backgroundColor = [UIColor yellowColor];
+//    UIViewController *vc1 = [UIViewController new];
+//    self.window1.rootViewController = vc1;
+//    [self.window1 makeKeyAndVisible];
+//    
+////    UIApplication *app = [UIApplication sharedApplication];
+////    app.statusBarHidden = YES;
+////    app.networkActivityIndicatorVisible = YES;
+////    UIUserNotificationSettings *userNoti = [UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeBadge categories:nil];
+////    [app registerUserNotificationSettings:userNoti];
+////    app.applicationIconBadgeNumber = 10;
+////    NSURL *url = [NSURL URLWithString:@"http://www.baidu.com"];
+//    [app openURL:url];
     return YES;
 }
 
