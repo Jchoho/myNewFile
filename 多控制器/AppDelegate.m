@@ -20,11 +20,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.backgroundColor = [UIColor blueColor];
-    testController *testC = [[testController alloc] init];
-    self.window.rootViewController = testC;
-    [self.window makeKeyAndVisible];
+//    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+//    self.window.backgroundColor = [UIColor blueColor];
+//    testController *testC = [[testController alloc] init];
+//    self.window.rootViewController = testC;
+//    [self.window makeKeyAndVisible];
 ////    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
 ////    UIViewController *vc = [sb instantiateViewControllerWithIdentifier:@"test"];
 //    UIViewController *vc = [[UIViewController alloc]initWithNibName:@"test" bundle:nil];

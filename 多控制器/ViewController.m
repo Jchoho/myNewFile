@@ -10,6 +10,9 @@
 
 @interface ViewController ()
 
+/** first */
+@property (nonatomic,strong)UIView *firstView;
+
 @end
 
 @implementation ViewController
@@ -26,6 +29,12 @@
     [imgView addSubview:leable];
     
     [self.view addSubview:imgView];
+    
+    UIView *firstView = [[UIView alloc]init];
+    firstView.frame = CGRectMake(100, 300, 100, 200);
+    self.firstView = firstView;
+    firstView.backgroundColor = [UIColor redColor];
+    [self.view insertSubview:firstView atIndex:0];
 }
 
 - (void)didReceiveMemoryWarning {
